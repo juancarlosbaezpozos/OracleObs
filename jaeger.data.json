@@ -1,0 +1,287 @@
+{
+    "data": [
+        {
+            "traceID": "edc74b88be0af659a08043f60130bb77",
+            "spans": [
+                {
+                    "traceID": "edc74b88be0af659a08043f60130bb77",
+                    "spanID": "9734abd03fb3038f",
+                    "operationName": "OwnerController.initFindForm",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "edc74b88be0af659a08043f60130bb77",
+                            "spanID": "e16536121b7a1d19"
+                        }
+                    ],
+                    "startTime": 1658132533091033,
+                    "duration": 9185,
+                    "tags": [
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "io.opentelemetry.spring-webmvc-3.1"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "1.14.0-alpha"
+                        },
+                        {
+                            "key": "thread.id",
+                            "type": "int64",
+                            "value": 137
+                        },
+                        {
+                            "key": "thread.name",
+                            "type": "string",
+                            "value": "http-nio-9000-exec-4"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "edc74b88be0af659a08043f60130bb77",
+                    "spanID": "94160f40b9405837",
+                    "operationName": "Render owners/findOwners",
+                    "references": [
+                        {
+                            "refType": "CHILD_OF",
+                            "traceID": "edc74b88be0af659a08043f60130bb77",
+                            "spanID": "e16536121b7a1d19"
+                        }
+                    ],
+                    "startTime": 1658132533100310,
+                    "duration": 152087,
+                    "tags": [
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "io.opentelemetry.spring-webmvc-3.1"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "1.14.0-alpha"
+                        },
+                        {
+                            "key": "thread.id",
+                            "type": "int64",
+                            "value": 137
+                        },
+                        {
+                            "key": "thread.name",
+                            "type": "string",
+                            "value": "http-nio-9000-exec-4"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "internal"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                },
+                {
+                    "traceID": "edc74b88be0af659a08043f60130bb77",
+                    "spanID": "e16536121b7a1d19",
+                    "operationName": "/owners/find",
+                    "references": [],
+                    "startTime": 1658132533075689,
+                    "duration": 178314,
+                    "tags": [
+                        {
+                            "key": "otel.library.name",
+                            "type": "string",
+                            "value": "io.opentelemetry.tomcat-7.0"
+                        },
+                        {
+                            "key": "otel.library.version",
+                            "type": "string",
+                            "value": "1.14.0-alpha"
+                        },
+                        {
+                            "key": "http.target",
+                            "type": "string",
+                            "value": "/owners/find"
+                        },
+                        {
+                            "key": "http.flavor",
+                            "type": "string",
+                            "value": "1.1"
+                        },
+                        {
+                            "key": "thread.id",
+                            "type": "int64",
+                            "value": 137
+                        },
+                        {
+                            "key": "net.transport",
+                            "type": "string",
+                            "value": "ip_tcp"
+                        },
+                        {
+                            "key": "net.peer.ip",
+                            "type": "string",
+                            "value": "0:0:0:0:0:0:0:1"
+                        },
+                        {
+                            "key": "thread.name",
+                            "type": "string",
+                            "value": "http-nio-9000-exec-4"
+                        },
+                        {
+                            "key": "http.host",
+                            "type": "string",
+                            "value": "localhost:9000"
+                        },
+                        {
+                            "key": "http.status_code",
+                            "type": "int64",
+                            "value": 200
+                        },
+                        {
+                            "key": "http.route",
+                            "type": "string",
+                            "value": "/owners/find"
+                        },
+                        {
+                            "key": "http.user_agent",
+                            "type": "string",
+                            "value": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36"
+                        },
+                        {
+                            "key": "http.method",
+                            "type": "string",
+                            "value": "GET"
+                        },
+                        {
+                            "key": "net.peer.port",
+                            "type": "int64",
+                            "value": 50777
+                        },
+                        {
+                            "key": "http.scheme",
+                            "type": "string",
+                            "value": "http"
+                        },
+                        {
+                            "key": "span.kind",
+                            "type": "string",
+                            "value": "server"
+                        },
+                        {
+                            "key": "internal.span.format",
+                            "type": "string",
+                            "value": "proto"
+                        }
+                    ],
+                    "logs": [],
+                    "processID": "p1",
+                    "warnings": null
+                }
+            ],
+            "processes": {
+                "p1": {
+                    "serviceName": "my-service",
+                    "tags": [
+                        {
+                            "key": "host.arch",
+                            "type": "string",
+                            "value": "x86_64"
+                        },
+                        {
+                            "key": "host.name",
+                            "type": "string",
+                            "value": "LINs-MacBook-Pro.local"
+                        },
+                        {
+                            "key": "os.description",
+                            "type": "string",
+                            "value": "Mac OS X 12.3"
+                        },
+                        {
+                            "key": "os.type",
+                            "type": "string",
+                            "value": "darwin"
+                        },
+                        {
+                            "key": "process.command_line",
+                            "type": "string",
+                            "value": "/Library/Java/JavaVirtualMachines/jdk-11.0.15+10 2/Contents/Home:bin:java -javaagent:./opentelemetry-javaagent.jar"
+                        },
+                        {
+                            "key": "process.executable.path",
+                            "type": "string",
+                            "value": "/Library/Java/JavaVirtualMachines/jdk-11.0.15+10 2/Contents/Home:bin:java"
+                        },
+                        {
+                            "key": "process.pid",
+                            "type": "int64",
+                            "value": 61090
+                        },
+                        {
+                            "key": "process.runtime.description",
+                            "type": "string",
+                            "value": "Eclipse Adoptium OpenJDK 64-Bit Server VM 11.0.15+10"
+                        },
+                        {
+                            "key": "process.runtime.name",
+                            "type": "string",
+                            "value": "OpenJDK Runtime Environment"
+                        },
+                        {
+                            "key": "process.runtime.version",
+                            "type": "string",
+                            "value": "11.0.15+10"
+                        },
+                        {
+                            "key": "telemetry.auto.version",
+                            "type": "string",
+                            "value": "1.14.0"
+                        },
+                        {
+                            "key": "telemetry.sdk.language",
+                            "type": "string",
+                            "value": "java"
+                        },
+                        {
+                            "key": "telemetry.sdk.name",
+                            "type": "string",
+                            "value": "opentelemetry"
+                        },
+                        {
+                            "key": "telemetry.sdk.version",
+                            "type": "string",
+                            "value": "1.14.0"
+                        }
+                    ]
+                }
+            },
+            "warnings": null
+        }
+    ],
+    "total": 0,
+    "limit": 0,
+    "offset": 0,
+    "errors": null
+}
