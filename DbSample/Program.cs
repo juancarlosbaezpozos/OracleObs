@@ -17,7 +17,6 @@ using var tracerProvider = Sdk.CreateTracerProviderBuilder()
         o.InstrumentOracleDataReaderRead = true;
         o.SetDbStatementForText = true;
     })
-    .AddConsoleExporter()
     .SetResourceBuilder(resourceBuilder)
     .AddSource("OracleDbSample")
     .AddJaegerExporter(options =>
